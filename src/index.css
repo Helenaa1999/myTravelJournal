@@ -1,0 +1,41 @@
+*, html{
+    margin: 0;
+    font-family: "inter";
+}
+
+header{
+    background-color: #F55A5A;
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
+    gap: 0.5rem;
+}
+
+h1{
+    color: white;
+    font-weight: 278;
+}
+img{
+    width: 3rem;
+}
+
+
+.journal-entry{
+    margin: 2.5rem auto 0 auto;
+    display: flex;
+    justify-content: center;
+    width: 50%;
+}
+
+.main-img-container{
+    width: 152px;
+    height: 168px;
+    overflow: hidden;
+    border-radius: 5px;
+}
+
+.main-img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
